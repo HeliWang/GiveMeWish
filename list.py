@@ -486,6 +486,8 @@ https://blog.csdn.net/prstaxy/article/details/22210829
 
 3Sum / Subarray Sum Equals K
 
+DRAW A DIAMOND WITH ASTERISKS USING RECURSION
+
 题目是给一些关系，比如 A 和 B的关系， B和 C的关系... 然后给一个 start 和target， print 出所有可以从start 出发，
 在target截止，并且带上 relationship. 比如 A brother B, B mother C,  B mother A, B friend D.  给 start = A, 
 target = C 的话， 要print 出 A brother B, B mother C。
@@ -523,12 +525,11 @@ timestamp + uid 找bot
 A bot is an id that visit the site m times in the last nseconds,
 given a list of logs with id and time sorted by time, returnall the bots's id
 https://www.careercup.com/question?id=5756947954401280
-
-建立一个class, 有get count 和 add event 两个methods. 就是计算给定时间内，有多少个event. 时间复杂度要求：至少O(logn).
-
 Define a bot as an IP that hits the web app over M times in the past T seconds
  (not necessarily hits on the same page. Also take into account different API calls.) 
  How to design a bot detector layer and where to place it in the system.
+
+建立一个class, 有get count 和 add event 两个methods. 就是计算给定时间内，有多少个event. 时间复杂度要求：至少O(logn).
 
 就是有n个人, 比赛, 问你有多少种比赛结果排名,每个人可以独自一人一组,
 也可以和其他人组成团体,
